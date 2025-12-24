@@ -1,0 +1,20 @@
+
+{
+  "name": "bunnypdf-html-to-pdf-api",
+  "version": "1.0.0",
+  "description": "Beginner-friendly but production-ready HTML-to-PDF API using Express and Playwright (Chromium).",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "playwright": "^1.49.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
