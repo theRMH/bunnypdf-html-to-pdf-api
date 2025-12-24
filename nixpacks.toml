@@ -1,23 +1,22 @@
 [phases.setup]
-aptPkgs = [
-  "libnspr4",
-  "libnss3",
-  "libatk1.0-0",
-  "libatk-bridge2.0-0",
-  "libx11-xcb1",
-  "libxcomposite1",
-  "libxdamage1",
-  "libxrandr2",
-  "libgbm1",
-  "libasound2",
-  "libpangocairo-1.0-0",
-  "libpango-1.0-0",
-  "libcairo2",
-  "libcups2",
-  "libdrm2",
-  "libxfixes3",
-  "libxkbcommon0",
-  "libgtk-3-0"
+nixPkgs = [
+  "nss",
+  "nspr",
+  "atk",
+  "at-spi2-atk",
+  "libx11",
+  "libxcomposite",
+  "libxdamage",
+  "libxrandr",
+  "mesa",
+  "alsa-lib",
+  "pango",
+  "cairo",
+  "cups",
+  "libdrm",
+  "libxfixes",
+  "libxkbcommon",
+  "gtk3"
 ]
 
 [phases.install]
